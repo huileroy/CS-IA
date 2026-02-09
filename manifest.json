@@ -1,8 +1,9 @@
 {
   "name": "My Progressive Web App",
   "short_name": "My PWA",
-  "description": "A Progressive Web App",
-  "start_url": "./",
+  "description": "A Progressive Web App with offline support",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#2196F3",
