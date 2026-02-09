@@ -1,0 +1,6 @@
+# GitHub Pages configuration for PWA
+include: [".nojekyll", ".gitignore"]
+exclude: ["node_modules", ".git", ".gitignore", "docs"]
+
+# Disable markdown processing  
+markdown: kramdown
