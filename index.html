@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#2196F3">
+    <meta name="description" content="A Progressive Web App">
+    <title>My PWA</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="icons/icon-512x512.png">
+    <link rel="apple-touch-icon" href="icons/icon-192x192.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <diz class="container">
+        <header>
+            <h1>Progressive Web App</h1>
+        </header>
+        <main>
+            <section class="content">
+                <h2>Welcome to Your PWA</h2>
+                <p>This app works offline and can be installed on your device.</p>
+                <button id="installBtn" class="install-btn">Install PWA</button>
+            </section>
+            <section class="status">
+                <h3>Status</h3>
+                <p id="status">Checking service worker...</p>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2026 My PWA. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

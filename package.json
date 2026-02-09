@@ -1,0 +1,20 @@
+{
+  "name": "pwa-app",
+  "version": "1.0.0",
+  "description": "A Progressive Web App ready for GitHub Pages",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx http-server",
+    "build": "echo 'No build step needed for static PWA'"
+  },
+  "keywords": [
+    "pwa",
+    "progressive",
+    "web",
+    "app",
+    "offline"
+  ],
+  "author": "",
+  "license": "MIT"
+}
